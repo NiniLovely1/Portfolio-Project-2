@@ -20,15 +20,17 @@ h1, h3, h4, h5, h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 p {
   font-family:var(--hero-h2-p-font-family);
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
   margin: 0;
   color:#272142;
+ line-height: 30px;
 }
 
 .hero {
@@ -40,14 +42,15 @@ p {
 .hero p {
   font-family:var(--hero-h2-p-font-family);
   font-size: 36px;
-  font-weight: bold;
+  font-weight: normal;
   color: #272142;
 }
  .hero h2 {
   font-family: var(--hero-h2-p-font-family);
-   font-style: normal;
+   font-style: bold;
   font-size: 24px;
-  line-height: 2.5;
+  line-height: 1.5;
+
  }
 
  .btn-style {
@@ -58,4 +61,48 @@ text-decoration: none;
 line-height: 27px;
 padding: 15px 28px;
 font-size: 18px;
+ }
+ h3 {
+  font-size: 64px;
+ }
+
+ .btn-style-outline {
+  background: var(--style-color);
+border-radius: 4px;
+text-decoration: none;
+line-height: 27px;
+font-size: 18px;
+background:var(--secondary-color);
+color:var(--style-color);
+border: 1px solid var(--style-color);
+ }
+
+ h3 {
+  font-size: 64px;
+ 
+ }
+
+ .project-description {
+  padding: 120 60px; 
+ }
+
+ @media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  .hero {
+  background: var(--secondary-color);
+  text-align: center;
+ padding: 80px 20px; 
+}
+  
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
  }
