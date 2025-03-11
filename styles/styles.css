@@ -85,6 +85,11 @@ border: 1px solid var(--style-color);
  .project-description {
   padding: 120 60px; 
  }
+ .about-img {
+  padding: 160px 20px;
+  text-align: center;
+}
+
 
  @media (max-width: 900px) {
   h1 {
@@ -106,3 +111,26 @@ border: 1px solid var(--style-color);
     text-align: center;
   }
  }
+
+.about-img-content {
+  margin: 35px;
+}
+
+
+ .about-img h1 {
+  font-size: 64px;
+  line-height: 70px;
+  font-weight:700;
+ }
+
+ .about-img h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+font-weight: 700;
+line-height: 1.5;
+ }
+
+ .about-img {
+  text-align: center;
+  padding: 0 auto;
+}
