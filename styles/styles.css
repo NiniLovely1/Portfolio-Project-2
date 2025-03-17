@@ -62,9 +62,7 @@ line-height: 27px;
 padding: 15px 28px;
 font-size: 18px;
  }
- h3 {
-  font-size: 64px;
- }
+ 
 
  .btn-style-outline {
   background: var(--style-color);
@@ -116,6 +114,10 @@ border: 1px solid var(--style-color);
   margin: 35px;
 }
 
+.content p {
+  line-height: 1.5;
+font-size: 14px;
+}
 
  .content-img-container h1 {
   font-size: 64px;
