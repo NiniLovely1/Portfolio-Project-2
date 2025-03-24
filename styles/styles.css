@@ -25,6 +25,12 @@ h1 {
   line-height: 1.5;
 }
 
+
+
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--hero-h2-p-font-family);
   font-weight: 500;
@@ -170,3 +176,42 @@ nav li.active a {
   text-align: center;
   padding: 0 auto;
 }
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+text-decoration: none;
+text-align: center;
+color: black;
+font-size: 24px;
+}
+ footer .email-link:hover {
+  color:var(--style-color);
+ }
+
+ footer .info-links a{
+margin: 0 20px;
+color: var(--style-color);
+background-color: var(--secondary-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition:all 150ms ease-in-out;
+ }
+
+ footer .info-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--style-color);
+ }
+
+ footer .contact-section {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+ }
+
+ footer .contact-section p {
+  margin: 0;
+ }
